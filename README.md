@@ -20,10 +20,10 @@ A web application that takes a user's birthday and calculates the day of the wee
 https://joankamere.github.io/project-two/
 
 ## Technologies Used
-HTML
-CSS
-Javascript
-Bootsrtap
+-HTML
+-CSS
+-Javascript
+-Bootsrtap
 
 ## Contact Information
 Email: joankamere@gmail.com
