@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -14,8 +15,15 @@
   <h2>A web application that takes a user's birthday and calculates the day of the week they were born and then
     depending on their gender outputs their Akan Name. </h2>
   <img src="image/akan-people.jpg" alt="Akan symbolism">
-  <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day
-    name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+  <div class="card">
+    <div class="card-body">
+      <div class="col-md-6">
+        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a
+          'day
+          name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+      </div>
+    </div>
+  </div>
   <h3>Male Names</h3>
   <ul>
     <li>Sunday:Kwasi</li>
@@ -44,14 +52,14 @@
   <label class="form-check-label">
     <input class="field" type="radio" name="gender" id="female" checked="checked" />
     FEMALE
-</label>
-<label class="form-check-label">
+  </label>
+  <label class="form-check-label">
     <input class="field" type="radio" name="gender" id="male" />
     MALE
-</label>
-<button type="submit" class="submit-btn">
-  Submit Results
-</button>
+  </label>
+  <button type="submit" class="submit-btn">
+    Submit Results
+  </button>
 </body>
 
 </html>
