@@ -58,28 +58,31 @@
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <div class="text-center">
-            <h4>Your Akan Name</h4>
-            <p>Day: <input TYPE="number" placeholder="25" NAME="day"> </p> 
-              <p>Month: <input TYPE="number" placeholder="05" NAME="month"> </p>
-            <p>Year : <input TYPE="number" placeholder="1980" NAME="year"> </p>
-            <label class="form-check-label">
-              <input class="field" type="radio" name="gender" id="female" checked="checked" />
-              FEMALE
-            </label>
-            <label class="form-check-label">
-              <input class="field" type="radio" name="gender" id="male" />
-              MALE
-            </label>
-            <button type="submit" class="submit-btn">
-              Submit Results
-            </button>
+      <form id="form-user" action="#" method="POST">
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <h4>Your Akan Name</h4>
+              <p>Day: <input TYPE="number" placeholder="25" name="day" min="01" max="31"> </p>
+              <p>Month: <input TYPE="number" placeholder="05" name="month" min="01" max="12"> </p>
+              <p>Year : <input TYPE="number" placeholder="1980" name="year" min="1921" max="2021"> </p>
+              <label class="form-check-label">
+                <input class="field" type="radio" name="gender" id="female" checked="checked" />
+                FEMALE
+              </label>
+              <label class="form-check-label">
+                <input class="field" type="radio" name="gender" id="male" />
+                MALE
+              </label>
+              <button type="submit" class="submit-btn">
+                Submit Results
+              </button>
+            </div>
           </div>
         </div>
-      </div>
     </div>
+    </form>
+    <script src="js/akan.js"></script>
 </body>
 
 </html>
